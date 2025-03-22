@@ -11,6 +11,9 @@ function App() {
   return (
     <>
       <div className='row' style={{ marginBottom: "20px" }}>
+        <div className='col fade-in' style={{ textAlign: "center" }}>
+          <img style={{ height: "300px", borderRadius: "50%" }} src={photo} />
+        </div>
         <div className='col fade-in'>
           <div style={{ fontSize: "25px", fontWeight: "bold", marginBottom: "20px" }}>
             Hi, I'm Afrizal Fadillah Anwar
@@ -28,9 +31,6 @@ function App() {
               <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2023/04/C3SA-01-1-1-100x100.png" />
               <img style={{height: "100px", borderRadius: "50%"}} src="https://secops.group/wp-content/uploads/2023/06/Certified-mobile-pentester-CMPen.png" />
             </div>
-        </div>
-        <div className='col fade-in' style={{ textAlign: "center" }}>
-          <img style={{ height: "300px", borderRadius: "50%" }} src={photo} />
         </div>
       </div>
       <div className='fade-in' style={{ marginInline: "20px", marginBottom: "20px"}}>
