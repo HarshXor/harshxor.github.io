@@ -31,16 +31,43 @@ function App() {
                 "As a Cyber Security professional, I have a strong focus on both Offensive and Defensive techniques to protect and secure digital systems. Additionally, I am a Full-Stack Developer, proficient in building secure, dynamic applications from front-end to back-end."
               </div>
               <div style={{ fontSize: "20px", fontWeight: "bold", marginBlock: "20px" }}>
+                Contact
+              </div>
+              <div style={{ marginTop: "20px", display: "flex", gap: "25px", justifyContent: "left" }}>
+                <a href="mailto:afrizal@incrustwerush.org" title="Email" target='_blank'>
+                  <FontAwesomeIcon icon={faEnvelope} size="5x" style={{ color: "white" }} />
+                </a>
+                <a href="https://github.com/afrzlfa" title="GitHub" target='_blank'>
+                  <FontAwesomeIcon icon={faGithub} size="5x" style={{ color: "white" }} />
+                </a>
+                <a href="https://www.linkedin.com/in/afrzlfa/" title="LinkedIn" target='_blank'>
+                  <FontAwesomeIcon icon={faLinkedin} size="5x" style={{ color: "white" }} />
+                </a>
+              </div>
+              {/*}
+              <div style={{ fontSize: "20px", fontWeight: "bold", marginBlock: "20px" }}>
                 Certificate
               </div>
               <div>
                 <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2023/04/C3SA-01-1-1-100x100.png" />
                 <img style={{height: "100px", borderRadius: "50%"}} src="https://secops.group/wp-content/uploads/2023/06/Certified-mobile-pentester-CMPen.png" />
               </div>
+              */}
             </div>
           </div>
         </div>
       </div>
+
+      <div style={{ padding: "20px", marginBottom: "20px", borderRadius: "10px", border: "1px solid aqua", marginInline: "20px" }} className='fade-in'>
+        <div style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBlock: "20px", textAlign: "center" }}>
+          Certificate
+        </div>
+        <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
+          <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2023/04/C3SA-01-1-1-100x100.png" />
+          <img style={{height: "100px", borderRadius: "50%"}} src="https://secops.group/wp-content/uploads/2023/06/Certified-mobile-pentester-CMPen.png" />
+        </div>
+      </div>
+
       <div className='fade-in' style={{ marginInline: "20px", marginBottom: "20px"}}>
         <div id="experience" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
           Experience
@@ -99,6 +126,25 @@ function App() {
                 <li>Full-stack web development (PHP MVC, MySQL, HTML, CSS, JS) </li>
                 <li>Develop automation software with Python, Java, Node.js (JavaScript) </li>
                 <li>Integrate web applications with automation software</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='fade-in' style={{ marginInline: "20px", marginBottom: "20px"}}>
+        <div id="project" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
+          Project
+        </div>
+        <div className="item-container">
+          <div className="item fade-in">
+            <div className="item-title">Pentesting WebApps & Mobile Apps ( PT Teleanjar Indonesia )</div>
+            <div className="item-company">Nov 2024 - Dec 2024</div>
+            <p>
+              <ul>
+                <li>Mobile Pentest (Android)</li>
+                <li>API Pentest</li>
+                <li>Web Pentest</li>
               </ul>
             </p>
           </div>
