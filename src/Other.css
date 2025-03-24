@@ -1,0 +1,52 @@
+/* Tombol Floating */
+.floating-button {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background-color: #007bff;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s;
+    z-index: 1000;
+  }
+  
+  .floating-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Menu Floating */
+  .floating-menu {
+    position: fixed;
+    left: -200px; /* Sembunyikan menu */
+    bottom: 80px;
+    width: 180px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    transition: left 0.3s ease-in-out;
+    z-index: 999;
+  }
+  
+  .floating-menu.open {
+    left: 20px; /* Munculkan menu */
+  }
+  
+  .floating-menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: background 0.2s;
+  }
+  
+  .floating-menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  

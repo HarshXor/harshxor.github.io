@@ -2,7 +2,11 @@ import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import photo from './assets/afrizal.jpg'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import './App.css'
+import './Other.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,31 +14,35 @@ function App() {
 
   return (
     <>
-      <div className='row' style={{ marginBottom: "20px" }}>
-        <div className='col fade-in' style={{ textAlign: "center" }}>
-          <img style={{ height: "300px", borderRadius: "50%" }} src={photo} />
-        </div>
-        <div className='col fade-in'>
-          <div style={{ fontSize: "25px", fontWeight: "bold", marginBottom: "20px" }}>
-            Hi, I'm Afrizal Fadillah Anwar
-          </div>
-          <div style={{ fontSize: "15px", marginBottom: "20px" }}>
-            Cyber Security Offensive & Defensive | Full-Stack Developer
-          </div>
-          <div>
-            "As a Cyber Security professional, I have a strong focus on both Offensive and Defensive techniques to protect and secure digital systems. Additionally, I am a Full-Stack Developer, proficient in building secure, dynamic applications from front-end to back-end."
-          </div>
-          <div style={{ fontSize: "20px", fontWeight: "bold", marginBlock: "20px" }}>
-              Certificate
+      <div className='profile'>
+        <div className='profile-overlay'>
+          <div className='row' style={{ marginBottom: "20px" }}>
+            <div className='col fade-in' style={{ textAlign: "center" }}>
+                <img style={{ height: "300px", borderRadius: "50%", border: "1px solid white" }} src={photo} />
             </div>
-            <div>
-              <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2023/04/C3SA-01-1-1-100x100.png" />
-              <img style={{height: "100px", borderRadius: "50%"}} src="https://secops.group/wp-content/uploads/2023/06/Certified-mobile-pentester-CMPen.png" />
+            <div className='col fade-in'>
+              <div style={{ color: "white", fontSize: "25px", fontWeight: "bold", marginBottom: "20px" }}>
+                Hi, I'm Afrizal Fadillah Anwar
+              </div>
+              <div style={{ fontSize: "15px", marginBottom: "20px" }}>
+                Cyber Security Offensive & Defensive | Full-Stack Developer
+              </div>
+              <div style={{ color: "white" }}>
+                "As a Cyber Security professional, I have a strong focus on both Offensive and Defensive techniques to protect and secure digital systems. Additionally, I am a Full-Stack Developer, proficient in building secure, dynamic applications from front-end to back-end."
+              </div>
+              <div style={{ fontSize: "20px", fontWeight: "bold", marginBlock: "20px" }}>
+                Certificate
+              </div>
+              <div>
+                <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2023/04/C3SA-01-1-1-100x100.png" />
+                <img style={{height: "100px", borderRadius: "50%"}} src="https://secops.group/wp-content/uploads/2023/06/Certified-mobile-pentester-CMPen.png" />
+              </div>
             </div>
+          </div>
         </div>
       </div>
       <div className='fade-in' style={{ marginInline: "20px", marginBottom: "20px"}}>
-        <div style={{ fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
+        <div id="experience" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
           Experience
         </div>
         <div className="item-container">
@@ -97,6 +105,20 @@ function App() {
         </div>
       </div>
       {/*
+            <div style={{ marginTop: "20px", display: "flex", gap: "25px", justifyContent: "center" }}>
+        <a href="https://wa.me/6281234567890" title="WhatsApp">
+          <FontAwesomeIcon icon={faPhone} size="3x" style={{ color: "white" }} />
+        </a>
+        <a href="mailto:your.email@example.com" title="Email">
+          <FontAwesomeIcon icon={faEnvelope} size="3x" style={{ color: "white" }} />
+        </a>
+        <a href="https://github.com/yourgithub" title="GitHub">
+          <FontAwesomeIcon icon={faGithub} size="3x" style={{ color: "white" }} />
+        </a>
+        <a href="https://linkedin.com/in/yourlinkedin" title="LinkedIn">
+          <FontAwesomeIcon icon={faLinkedin} size="3x" style={{ color: "white" }} />
+        </a>
+      </div>
       <div className='footer'>
         Copyright &copy;{year} - Afrizal F.A
       </div>
