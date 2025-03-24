@@ -193,7 +193,7 @@ function App() {
           <div className="item-container">
             <div className="item fade-in">
               <div className="item-title">Rusher Web Framework - PHP Backend Framework</div>
-              <div className="item-company">Link Project: <a style={{ color: "white" }} href='https://github.com/ICWR-TEAM/R-WFW'>https://github.com/ICWR-TEAM/R-WFW</a></div>
+              <div className="item-company">Link Project: <a style={{ color: "white" }} href='https://github.com/ICWR-TEAM/R-WFW' target='_blank'>https://github.com/ICWR-TEAM/R-WFW</a></div>
               <p>
                 <div style={{ marginBottom: "10px" }}>
                   Overview:
