@@ -68,85 +68,86 @@ function App() {
         </div>
       </div>
 
-      <div className='fade-in' style={{ marginInline: "20px", marginBottom: "20px"}}>
-        <div id="experience" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
-          Experience
+      <div className='row' style={{ marginBottom: "20px" }}>
+        <div className='col fade-in'>
+          <div id="experience" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
+            Experience
+          </div>
+          <div className="item-container">
+            <div className="item fade-in">
+              <div className="item-title">Penetration Tester</div>
+              <div className="item-company">VENTURO | Professional Programmer | Full-time</div>
+              <div className='item-detail'>May 2024 to Present</div>
+              <div className='item-detail'>Malang, East Java, Indonesia | On-site</div>
+              <p>
+                <ul>
+                  <li>Conducting penetration testing on web and mobile apps </li>
+                  <li>Creating penetration test reports </li>
+                  <li>Performing security analysis </li>
+                  <li>Security research </li>
+                  <li>Incident response </li>
+                  <li>Monitoring SIEM Wazuh & Elastic Stack</li>
+                </ul>
+              </p>
+            </div>
+            <div className="item fade-in">
+              <div className="item-title">Fullstack Web Developer</div>
+              <div className="item-company">Freelance</div>
+              <div className='item-detail'>Jan 20018 to Present</div>
+              <div className='item-detail'>Malang, East Java, Indonesia</div>
+              <p>
+              <ul>
+                  <li>Develop monolith or microservice web applications </li>
+                  <li>Build web backends using PHP MVC </li>
+                  <li>Design and manage databases with MySQL</li>
+                  <li>Create front-end using HTML, CSS, and JavaScript</li>
+                </ul>
+              </p>
+            </div>
+            <div className="item fade-in">
+              <div className="item-title">Support Maintenance | Web Programmer Full Stack</div>
+              <div className="item-company">PT. Assist Software Indonesia Pratama</div>
+              <div className='item-detail'>Full-time</div>
+              <div className='item-detail'>Malang, East Java, Indonesia</div>
+              <p>
+                <ul>
+                  <li>Responsible for maintenance and development of full-stack web applications (PHP MVC, HTML, CSS, JS) </li>
+                  <li>Communicate with clients</li>
+                </ul>
+              </p>
+            </div>
+            <div className="item fade-in">
+              <div className="item-title">Programmer Project Lead</div>
+              <div className="item-company">Forex Basecamp</div>
+              <div className='item-detail'>Part-time</div>
+              <div className='item-detail'>Malang, East Java, Indonesia</div>
+              <p>
+                <ul>
+                  <li>Responsible for managing team tasks </li>
+                  <li>Full-stack web development (PHP MVC, MySQL, HTML, CSS, JS) </li>
+                  <li>Develop automation software with Python, Java, Node.js (JavaScript) </li>
+                  <li>Integrate web applications with automation software</li>
+                </ul>
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="item-container">
-          <div className="item fade-in">
-            <div className="item-title">Penetration Tester</div>
-            <div className="item-company">VENTURO | Professional Programmer | Full-time</div>
-            <div className='item-detail'>May 2024 to Present</div>
-            <div className='item-detail'>Malang, East Java, Indonesia | On-site</div>
-            <p>
-              <ul>
-                <li>Conducting penetration testing on web and mobile apps </li>
-                <li>Creating penetration test reports </li>
-                <li>Performing security analysis </li>
-                <li>Security research </li>
-                <li>Incident response </li>
-                <li>Monitoring SIEM Wazuh & Elastic Stack</li>
-              </ul>
-            </p>
+        <div className='col fade-in'>
+          <div id="project" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
+            Project
           </div>
-          <div className="item fade-in">
-            <div className="item-title">Fullstack Web Developer</div>
-            <div className="item-company">Freelance</div>
-            <div className='item-detail'>Jan 20018 to Present</div>
-            <div className='item-detail'>Malang, East Java, Indonesia</div>
-            <p>
-            <ul>
-                <li>Develop monolith or microservice web applications </li>
-                <li>Build web backends using PHP MVC </li>
-                <li>Design and manage databases with MySQL</li>
-                <li>Create front-end using HTML, CSS, and JavaScript</li>
-              </ul>
-            </p>
-          </div>
-          <div className="item fade-in">
-            <div className="item-title">Support Maintenance | Web Programmer Full Stack</div>
-            <div className="item-company">PT. Assist Software Indonesia Pratama</div>
-            <div className='item-detail'>Full-time</div>
-            <div className='item-detail'>Malang, East Java, Indonesia</div>
-            <p>
-              <ul>
-                <li>Responsible for maintenance and development of full-stack web applications (PHP MVC, HTML, CSS, JS) </li>
-                <li>Communicate with clients</li>
-              </ul>
-            </p>
-          </div>
-          <div className="item fade-in">
-            <div className="item-title">Programmer Project Lead</div>
-            <div className="item-company">Forex Basecamp</div>
-            <div className='item-detail'>Part-time</div>
-            <div className='item-detail'>Malang, East Java, Indonesia</div>
-            <p>
-              <ul>
-                <li>Responsible for managing team tasks </li>
-                <li>Full-stack web development (PHP MVC, MySQL, HTML, CSS, JS) </li>
-                <li>Develop automation software with Python, Java, Node.js (JavaScript) </li>
-                <li>Integrate web applications with automation software</li>
-              </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className='fade-in' style={{ marginInline: "20px", marginBottom: "20px"}}>
-        <div id="project" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
-          Project
-        </div>
-        <div className="item-container">
-          <div className="item fade-in">
-            <div className="item-title">Pentesting WebApps & Mobile Apps ( PT Teleanjar Indonesia )</div>
-            <div className="item-company">Nov 2024 - Dec 2024</div>
-            <p>
-              <ul>
-                <li>Mobile Pentest (Android)</li>
-                <li>API Pentest</li>
-                <li>Web Pentest</li>
-              </ul>
-            </p>
+          <div className="item-container">
+            <div className="item fade-in">
+              <div className="item-title">Pentesting WebApps & Mobile Apps ( PT Teleanjar Indonesia )</div>
+              <div className="item-company">Nov 2024 - Dec 2024</div>
+              <p>
+                <ul>
+                  <li>Mobile Pentest (Android)</li>
+                  <li>API Pentest</li>
+                  <li>Web Pentest</li>
+                </ul>
+              </p>
+            </div>
           </div>
         </div>
       </div>
