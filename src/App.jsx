@@ -93,7 +93,7 @@ function App() {
             <div className="item fade-in">
               <div className="item-title">Fullstack Web Developer</div>
               <div className="item-company">Freelance</div>
-              <div className='item-detail'>Jan 20018 to Present</div>
+              <div className='item-detail'>Jan 2018 to Present</div>
               <div className='item-detail'>Malang, East Java, Indonesia</div>
               <p>
               <ul>
@@ -132,10 +132,12 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className='col fade-in'>
           <div id="project" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
             Project
           </div>
+          
           <div className="item-container">
             <div className="item fade-in">
               <div className="item-title">Pentesting WebApps & Mobile Apps ( PT Teleanjar Indonesia )</div>
@@ -149,6 +151,69 @@ function App() {
               </p>
             </div>
           </div>
+
+          <div className="item-container">
+            <div className="item fade-in">
+              <div className="item-title">Penetration Test Web & Mobile Apps PT Agriva</div>
+              <div className="item-company">Jul 2024 - Jul 2024</div>
+              <p>
+                <ul>
+                  <li>Penetration Testing Web</li>
+                  <li>Mobile Apps</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div className="item-container">
+            <div className="item fade-in">
+              <div className="item-title">Pentesting WebApps & Mobile Apps ( PT Teleanjar Indonesia )</div>
+              <div className="item-company">Nov 2023 - Dec 2023</div>
+              <p>
+                <ul>
+                  <li>Server API & Database Server Penetration Test</li>
+                  <li>Mobile Apps</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div className="item-container">
+            <div className="item fade-in">
+              <div className="item-title">Pentesting Apps BUMN</div>
+              <div className="item-company">Jan 2023 - Apr 2023</div>
+              <p>
+                <ul>
+                  <li>Web Apps Penetration Test</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
+          <div className="item-container">
+            <div className="item fade-in">
+              <div className="item-title">Rusher Web Framework - PHP Backend Framework</div>
+              <div className="item-company">Link Project: <a style={{ color: "white" }} href='https://github.com/ICWR-TEAM/R-WFW'>https://github.com/ICWR-TEAM/R-WFW</a></div>
+              <p>
+                <div style={{ marginBottom: "10px" }}>
+                  Overview:
+                </div>
+                <div style={{ marginBottom: "10px" }}>
+                  R-WFW (Rusher Web Framework) is a minimal and straightforward backend framework designed to help you build web applications quickly and efficiently. It follows the Model-View-Controller (MVC) architecture, making your codebase clean, organized, and easy to maintain.
+                </div>
+                <div>
+                  Key Features:
+                </div>
+                <ul>
+                  <li>MVC Architecture: Separation of concerns for better organization.</li>
+                  <li>Middleware: Easy to define and manage middleware for request processing.</li>
+                  <li>Libraries: Includes useful libraries for common tasks, enhancing productivity.</li>
+                  <li>Lightweight: Simple to use and extend, without unnecessary bloat.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
       {/*
