@@ -1,15 +1,38 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import photo from './assets/afrizal.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import './App.css'
 import './Other.css'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 300) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   const year = new Date().getFullYear();
 
   return (
@@ -30,10 +53,13 @@ function App() {
               <div style={{ color: "white" }}>
                 "As a Cyber Security professional, I have a strong focus on both Offensive and Defensive techniques to protect and secure digital systems. Additionally, I am a Full-Stack Developer, proficient in building secure, dynamic applications from front-end to back-end."
               </div>
-              <div style={{ fontSize: "20px", fontWeight: "bold", marginBlock: "20px" }}>
+              <div style={{ fontSize: "15px", marginBlock: "20px" }}>
+              <a href='#certificate' style={{ color: "white" }}>Certificate</a> | <a href='#experience' style={{ color: "white" }}>Experience</a> | <a href='#project' style={{ color: "white" }}>Project</a>
+              </div>
+              <div style={{ fontSize: "20px", fontWeight: "bold", marginBlock: "10px" }}>
                 Contact
               </div>
-              <div style={{ marginTop: "20px", display: "flex", gap: "25px", justifyContent: "left" }}>
+              <div style={{ display: "flex", gap: "25px", justifyContent: "left" }}>
                 <a href="mailto:afrizal@incrustwerush.org" title="Email" target='_blank'>
                   <FontAwesomeIcon icon={faEnvelope} size="5x" style={{ color: "white" }} />
                 </a>
@@ -58,7 +84,7 @@ function App() {
         </div>
       </div>
 
-      <div style={{ padding: "20px", marginBottom: "20px", borderRadius: "10px", border: "1px solid aqua", marginInline: "20px" }} className='fade-in'>
+      <div id="certificate" style={{ padding: "20px", marginBottom: "20px", borderRadius: "10px", border: "1px solid aqua", marginInline: "20px" }} className='fade-in'>
         <div style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBlock: "20px", textAlign: "center" }}>
           Certificate
         </div>
@@ -216,6 +242,14 @@ function App() {
 
         </div>
       </div>
+      {isVisible && (
+        <button
+        onClick={scrollToTop}
+        className="scroll-to-top"
+      >
+        <FontAwesomeIcon icon={faArrowUp} size="1x" style={{ color: "white" }} />
+      </button>
+      )}
       {/*
             <div style={{ marginTop: "20px", display: "flex", gap: "25px", justifyContent: "center" }}>
         <a href="https://wa.me/6281234567890" title="WhatsApp">

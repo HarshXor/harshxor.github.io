@@ -3,4 +3,5 @@ html {
   color: aqua;
   font-family: 'Courier New', Courier, monospace;
   font-size: 10px;
+  scroll-behavior: smooth;
 }
