@@ -245,7 +245,7 @@ function App() {
       {isVisible && (
         <button
         onClick={scrollToTop}
-        className="scroll-to-top"
+        className="scroll-to-top fade-in-fast"
       >
         <FontAwesomeIcon icon={faArrowUp} size="1x" style={{ color: "white" }} />
       </button>
