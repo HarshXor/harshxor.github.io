@@ -45,7 +45,7 @@ function App() {
             </div>
             <div className='col fade-in'>
               <div style={{ color: "white", fontSize: "25px", fontWeight: "bold", marginBottom: "20px" }}>
-                Hi, I'm Afrizal Fadillah Anwar
+                Hi, I'm Afrizal Fadillah Anwar (@HarshXor)
               </div>
               <div style={{ fontSize: "15px", marginBottom: "20px" }}>
                 Cyber Security Offensive & Defensive | Full-Stack Developer
