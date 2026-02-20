@@ -63,7 +63,7 @@ function App() {
                 <a href="mailto:afrizal@incrustwerush.org" title="Email" target='_blank'>
                   <FontAwesomeIcon icon={faEnvelope} size="5x" style={{ color: "white" }} />
                 </a>
-                <a href="https://github.com/afrzlfa" title="GitHub" target='_blank'>
+                <a href="https://github.com/HarshXor" title="GitHub" target='_blank'>
                   <FontAwesomeIcon icon={faGithub} size="5x" style={{ color: "white" }} />
                 </a>
                 <a href="https://www.linkedin.com/in/afrzlfa/" title="LinkedIn" target='_blank'>
