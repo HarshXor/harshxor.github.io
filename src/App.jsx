@@ -88,7 +88,7 @@ function App() {
         <div style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBlock: "20px", textAlign: "center" }}>
           Certificate
         </div>
-        <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
+        <div style={{ display: "flex", gap: "20px", justifyContent: "center", flexWrap: "wrap" }}>
           <a href="https://labs.cyberwarfare.live/credential/achievement/693bd5a14ae648396170161a" target="_blank" title="CRTA Certificate">
             <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2025/11/CRTA.webp" />
           </a>
