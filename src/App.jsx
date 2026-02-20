@@ -89,8 +89,21 @@ function App() {
           Certificate
         </div>
         <div style={{ display: "flex", gap: "20px", justifyContent: "center" }}>
-          <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2023/04/C3SA-01-1-1-100x100.png" />
-          <img style={{height: "100px", borderRadius: "50%"}} src="https://secops.group/wp-content/uploads/2023/06/Certified-mobile-pentester-CMPen.png" />
+          <a href="https://labs.cyberwarfare.live/credential/achievement/693bd5a14ae648396170161a" target="_blank" title="CRTA Certificate">
+            <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2025/11/CRTA.webp" />
+          </a>
+          <a href="https://labs.cyberwarfare.live/credential/achievement/69363492e094d36ed04eda2f" target="_blank" title="C3SA Certificate">
+            <img style={{height: "100px", borderRadius: "50%"}} src="https://cyberwarfare.live/wp-content/uploads/2023/04/C3SA-01-1-1-100x100.png" />
+          </a>
+          <a href="https://candidate.speedexam.net/certificate.aspx?SSTATE=am4131EniU8ntjp4bO5mXaWg3Sw2CAjK9BYMzT903sPpW8TIBGyNS7AphN/FWJCBDvp6nm/LTjyDD2Y+ANaZ7GAjqUoaQcY4GnlIZjjClaM=" target="_blank" title="CMPen Certificate">
+            <img style={{height: "100px", borderRadius: "50%"}} src="https://pentestingexams.com/wp-content/uploads/2023/02/cert-stamp-cmpen-android.png" />
+          </a>
+          <a href="https://courses.redteamleaders.com/exam-completion/49e358652c67ac75" target="_blank" title="CCEP Certificate">
+          <img style={{height: "100px", borderRadius: "50%"}} src="https://images.coursestack.com/b442ad36-44fe-4b6f-99f5-fd6f7ddbb4b4/121aa084-cf7e-4b73-bda3-d38f53f9bff1" />
+          </a>
+          <a href="https://courses.redteamleaders.com/exam-completion/1fbb9fa2f5639aec" target="_blank" title="CTIGA Certificate">
+            <img style={{height: "100px", borderRadius: "50%"}} src="https://images.coursestack.com/92f9ada1-f557-450f-a21f-8ae56c42bb0f/9a2fa7a5-a015-49a7-a6c8-7c9be291af47" />
+          </a>
         </div>
       </div>
 
@@ -163,7 +176,37 @@ function App() {
           <div id="project" style={{ color: "white", fontSize: "20px", fontWeight: "bold", marginBottom: "20px", textAlign: "center" }}>
             Project
           </div>
+
+          <div className="item-container">
+            <div className="item fade-in">
+              <div className="item-title">R-WAF (Rusher Web Application Firewall)</div>
+              <div className="item-company">Link Project: <a style={{ color: "white" }} href='https://github.com/ICWR-TEAM/R-WAF' target='_blank'>https://github.com/ICWR-TEAM/R-WAF</a></div>
+              <p>
+                <div style={{ marginBottom: "10px" }}>
+                  Overview:
+                </div>
+                <div style={{ marginBottom: "10px" }}>
+                  R-WAF is a modular Web Application Firewall powered by Python + Flask + OpenResty/Nginx. It provides comprehensive protection against common web attacks with both request and response filtering capabilities, plus a real-time monitoring dashboard.
+                </div>
+              </p>
+            </div>
+          </div>
           
+          <div className="item-container">
+            <div className="item fade-in">
+              <div className="item-title">R-AScan (Rusher Automatic Scanner)</div>
+              <div className="item-company">Link Project: <a style={{ color: "white" }} href='https://github.com/ICWR-TEAM/R-AScan' target='_blank'>https://github.com/ICWR-TEAM/R-AScan</a></div>
+              <p>
+                <div style={{ marginBottom: "10px" }}>
+                  Overview:
+                </div>
+                <div style={{ marginBottom: "10px" }}>
+                  R-AScan is a modular, multithreaded vulnerability scanner framework written in Python. It dynamically loads all .py scanner modules in the scanners/ directory and executes them against a target. Each module returns structured output and is saved to a JSON file for analysis.
+                </div>
+              </p>
+            </div>
+          </div>
+
           <div className="item-container">
             <div className="item fade-in">
               <div className="item-title">Pentesting WebApps & Mobile Apps ( PT Teleanjar Indonesia )</div>
